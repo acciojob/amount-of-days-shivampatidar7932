@@ -12,7 +12,7 @@ const inputYear = parseInt(prompt("Enter a year (between 1 and 9999):"), 10);
 
 if (!isNaN(inputYear) && inputYear >= 1 && inputYear <= 9999) {
   const result = daysOfAYear(inputYear);
-  alert(`The number of days in ${inputYear} is ${result}.`);
+  alert(` The number of days in ${inputYear} is ${result}`)
 } else {
   alert("Invalid input. Please enter a valid year between 1 and 9999.");
 }
